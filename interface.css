@@ -1,0 +1,59 @@
+ /* html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, ol, ul, */
+    /* li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { */
+      /* margin:0; */
+      /* padding:0; */
+      /* border:0; */
+      /* font-size:100%; */
+      /* font:inherit; */
+      /* vertical-align:baseline; */
+    /* } */
+
+div{
+	
+	overflow: hidden;
+	display: block;
+	
+}
+
+#stats {
+	
+	position: absolute;
+	width: 50%;
+	height: 25%;
+	color: black;
+	background-color: white;
+}
+#monster {
+	position:absolute;
+	width: 25%;
+	height: 25%;
+	color: black;
+	background-color: white;
+	left:51%;
+}
+
+ul.stats {
+	
+	position: relative;
+	list-style: none inside none;
+	columns: 3;
+}
+
+li {
+	position: relative;
+	margin: 0 0 .5em 0;
+	
+}
+span {
+	position: relative;
+	float: right;
+	/* right: 65%; */
+	text-align:middle;
+}
+body {
+	
+	size: initial;
+	font-size: 1em;
+	background-color: grey;
+
+}
