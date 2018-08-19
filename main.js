@@ -50,7 +50,7 @@ let pet = {
 
 let player = {
 	
-	// NAME: window.prompt("What is your name?").toUpperCase(),
+	// NAME: window.prompt("What is your name?"),
 	NAME: 'CHRIS',
 	RACE: races[1],
 	AGE: 10,
@@ -79,15 +79,21 @@ let monster = {
 
 
 const battle = () => {
-	
+
+
+
 }
 
 const makeTitle = () => {
 	
 	
 	
+}
+
+const log = () => {
 	
 }
+
 
 const printToScreen = () => {
 	setID('NAME', player.NAME);
